@@ -3,12 +3,14 @@ package main.structural.flyweight.factory;
 import main.structural.flyweight.constant.FlowerTypes;
 import main.structural.flyweight.model.Flower;
 
-import java.util.HashMap;
+import java.util.Collections;
+import java.util.EnumMap;
 import java.util.Map;
 
 public class FlowerFactory {
 
-    private static Map<FlowerTypes, Flower> flowerMap = new HashMap<>();
+    private static final Map<FlowerTypes, Flower> flowerMap = Collections.synchronizedMap(
+            new EnumMap<>(FlowerTypes.class));
 
     public static Flower produceFlowers(FlowerTypes type) {
         if (flowerMap.get(type) == null) {

@@ -27,7 +27,7 @@ public class User implements Cloneable{
 
     @Override
     public String toString() {
-        return "User{" +
+        return "Employee{" +
                 "id=" + id +
                 ", fullName='" + fullName + '\'' +
                 '}';

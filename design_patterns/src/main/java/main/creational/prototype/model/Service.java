@@ -27,7 +27,7 @@ public class Service implements Cloneable{
 
     @Override
     public String toString() {
-        return "Service{" +
+        return "BankService{" +
                 "id=" + id +
                 ", serviceName='" + serviceName + '\'' +
                 '}';

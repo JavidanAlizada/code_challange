@@ -4,9 +4,7 @@ import main.structural.flyweight.constant.FlowerTypes;
 import main.structural.flyweight.factory.FlowerFactory;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class FlowerBunch {
     private String bunchFrom;
@@ -14,7 +12,7 @@ public class FlowerBunch {
     private float price;
     private FlowerTypes flowerTypes;
     private int flowerAmountInBunch;
-//    private Set<Flower> flowers;
+    //    private Set<Flower> flowers;
     private List<Flower> flowers;
 
     public FlowerBunch(String bunchFrom, String bunchTo, float price, FlowerTypes flowerTypes, int flowerAmountInBunch) {
@@ -73,7 +71,7 @@ public class FlowerBunch {
             flowers.add(FlowerFactory.produceFlowers(flowerTypes));
     }
 
-//    public HashSet<Flower> getFlowers() {
+    //    public HashSet<Flower> getFlowers() {
 //        return flowers;
 //    }
     public List<Flower> getFlowers() {
