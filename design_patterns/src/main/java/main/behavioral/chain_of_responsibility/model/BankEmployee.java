@@ -1,8 +1,8 @@
-package main.behavioral.model;
+package main.behavioral.chain_of_responsibility.model;
 
-import main.behavioral.Processable;
-import main.behavioral.ResponsibilityChecker;
-import main.behavioral.constant.Operations;
+import main.behavioral.chain_of_responsibility.Processable;
+import main.behavioral.chain_of_responsibility.ResponsibilityChecker;
+import main.behavioral.chain_of_responsibility.constant.Operations;
 
 public abstract class BankEmployee implements Processable, ResponsibilityChecker {
     protected Operations operations;

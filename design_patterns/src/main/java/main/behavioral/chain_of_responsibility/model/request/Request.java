@@ -1,6 +1,6 @@
-package main.behavioral.model.request;
+package main.behavioral.chain_of_responsibility.model.request;
 
-import main.behavioral.constant.Operations;
+import main.behavioral.chain_of_responsibility.constant.Operations;
 
 public class Request {
 

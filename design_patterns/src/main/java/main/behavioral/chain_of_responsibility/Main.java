@@ -1,7 +1,7 @@
-package main.behavioral;
+package main.behavioral.chain_of_responsibility;
 
-import main.behavioral.constant.Operations;
-import main.behavioral.model.request.Request;
+import main.behavioral.chain_of_responsibility.constant.Operations;
+import main.behavioral.chain_of_responsibility.model.request.Request;
 
 public class Main {
 

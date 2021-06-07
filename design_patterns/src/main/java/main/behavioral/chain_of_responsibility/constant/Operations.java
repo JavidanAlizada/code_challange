@@ -1,4 +1,4 @@
-package main.behavioral.constant;
+package main.behavioral.chain_of_responsibility.constant;
 
 public enum Operations {
 

@@ -1,7 +1,7 @@
-package main.behavioral.model.submodel;
+package main.behavioral.chain_of_responsibility.model.submodel;
 
-import main.behavioral.constant.Operations;
-import main.behavioral.model.BankEmployee;
+import main.behavioral.chain_of_responsibility.constant.Operations;
+import main.behavioral.chain_of_responsibility.model.BankEmployee;
 
 public class CreditBranchManager extends BankEmployee {
 

@@ -1,8 +1,8 @@
-package main.behavioral;
+package main.behavioral.chain_of_responsibility;
 
-import main.behavioral.model.BankEmployee;
-import main.behavioral.model.request.Request;
-import main.behavioral.model.submodel.*;
+import main.behavioral.chain_of_responsibility.model.BankEmployee;
+import main.behavioral.chain_of_responsibility.model.request.Request;
+import main.behavioral.chain_of_responsibility.model.submodel.*;
 
 public class BankService {
     private final BankEmployee entryBankServiceEmployee;
