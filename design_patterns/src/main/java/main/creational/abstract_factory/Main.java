@@ -1,9 +1,16 @@
 package main.creational.abstract_factory;
 
-import main.creational.abstract_factory.product_order_service.factory.OrderService;
 import main.creational.abstract_factory.product_order_service.factory.OrderDetails;
 import main.creational.abstract_factory.product_order_service.factory.OrderFactory;
+import main.creational.abstract_factory.product_order_service.factory.OrderService;
 import main.creational.abstract_factory.product_order_service.model.Product;
+
+interface A {
+}
+
+
+interface B {
+}
 
 public class Main {
     public static void main(String[] args) {
@@ -13,5 +20,7 @@ public class Main {
         if (factory != null)
             product = factory.getOrderedProduct();
         System.out.println(product);
+
+
     }
 }
